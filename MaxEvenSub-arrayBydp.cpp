@@ -1,4 +1,8 @@
 
+/* find maximum sum subarray of even length using dp whose recurrence is simply
+
+dp[i] = max({0,arr[i]+arr[i+1],arr[i]+arr[i+1]+dp[i+2]) .*/
+
 
 ll maxSubArraySum(ll a[], ll size)
 {
